@@ -1,9 +1,16 @@
 import React from "react";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
+import Sidenav from "./components/sidenav/Sidenav";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello React</h1>
+      <Header />
+      <Main />
+      <Sidenav />
+      <Footer />
     </div>
   );
 };
