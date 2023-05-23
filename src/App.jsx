@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
-import Sidenav from "./components/sidenav/Sidenav";
+import Sidenav from "./components/header/Sidenav";
 import Footer from "./components/footer/Footer";
 
-const App = () => {
+function App() {
   return (
     <div>
       <Header />
@@ -13,6 +13,6 @@ const App = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
